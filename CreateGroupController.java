@@ -25,7 +25,7 @@ public class CreateGroupController {
 	public CreateGroupController() {
 		logger.info("created Group Controller"+this.getClass().getSimpleName());
 	}
-
+        //Autoworired data
 	@Autowired
 	private CreateGroupService service;
 
