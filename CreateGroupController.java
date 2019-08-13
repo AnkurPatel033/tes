@@ -28,7 +28,7 @@ public class CreateGroupController {
         //Autoworired data
 	@Autowired
 	private CreateGroupService service;
-
+	//RequestMapping data
 	@RequestMapping(value = "/creategrp.do", method = RequestMethod.POST)
 	public String saveGroup(createGroupDTO dto, Model model) throws ControllerException {
 		try {
